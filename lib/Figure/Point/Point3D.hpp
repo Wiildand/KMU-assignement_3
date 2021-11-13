@@ -5,7 +5,7 @@
 #ifndef CLION_MODERN_OPENGL_POINT3D_HPP
 #define CLION_MODERN_OPENGL_POINT3D_HPP
 
-#include "IGLObject.hpp"
+#include "Figure/IGLObject.hpp"
 
 namespace Figure {
 
@@ -14,7 +14,7 @@ namespace Figure {
         explicit Point3D(const std::string &name = "A", const float &x = 0, const float &y = 0, const float &z = 0,
                          const float &s = 1);
 
-        Point3D(const std::string &name, const glm::vec3 &vector, const float &s);
+        Point3D(const std::string &name, const glm::vec3 &vector, const float &s = 1);
 
         Point3D(const std::string &name, const glm::vec4 &vector);
 

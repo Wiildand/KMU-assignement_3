@@ -5,8 +5,8 @@
 #ifndef CLION_MODERN_OPENGL_OBJECT2D_HPP
 #define CLION_MODERN_OPENGL_OBJECT2D_HPP
 
-#include "IGLObject.hpp"
-#include "Point/Point2D.hpp"
+#include "Figure/IGLObject.hpp"
+#include "Figure/Point/Point2D.hpp"
 
 namespace Figure {
     class Object2D : public Figure::IGLObject {

@@ -190,7 +190,7 @@ void Point3D::dump() {
               << _point.x << ", "
               << _point.y << ", "
               << _point.z << ", "
-              << _point.s << "]"
+              << _point.w << "]"
               << std::endl;
 }
 

@@ -5,7 +5,7 @@
 #ifndef CLION_MODERN_OPENGL_POINT2D_HPP
 #define CLION_MODERN_OPENGL_POINT2D_HPP
 
-#include "IGLObject.hpp"
+#include "Figure/IGLObject.hpp"
 
 namespace Figure {
 

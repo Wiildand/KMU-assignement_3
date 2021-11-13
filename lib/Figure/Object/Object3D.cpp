@@ -96,3 +96,7 @@ std::ostream &operator<<(std::ostream &os, const Object3D &o) {
     });
     return os;
 }
+
+Object3D::~Object3D() {
+    _listPoints.clear();
+}

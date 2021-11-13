@@ -6,7 +6,7 @@
 #define CLION_MODERN_OPENGL_OBJECT3D_HPP
 
 #include "Figure/IGLObject.hpp"
-#include "Point/Point3D.hpp"
+#include "Figure/Point/Point3D.hpp"
 
 namespace Figure {
 
@@ -15,7 +15,7 @@ namespace Figure {
     public:
         explicit Object3D(const std::string &name, std::vector<Point3D> listPoint);
 
-        ~Object3D() = default;
+        ~Object3D();
 
         void translation(const float &x = 0, const float &y = 0, const float &z = 0);
 

@@ -59,6 +59,7 @@ add_definitions(
 include_directories(include
         lib
         include
+        source
         )
 
 set(SRC_LIB
@@ -70,10 +71,14 @@ set(SRC_LIB
 
 set(SRC_FILES
         source/main.cpp
+        source/ExerciseOne/ExerciseOne.cpp
+        source/ExerciseTwo/ExerciseTwo.cpp
+        source/ExerciseThree/ExerciseThree.cpp
+        source/ExerciseFourth/ExerciseFourth.cpp
         )
 
 
 set(HDR_FILES)
 
-add_executable(${PROJECT_NAME} ${SRC_FILES})
+add_executable(${PROJECT_NAME} ${SRC_FILES} ${SRC_LIB})
 target_link_libraries(${PROJECT_NAME} ${ALL_LIBS})
